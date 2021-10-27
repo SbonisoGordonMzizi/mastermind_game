@@ -3,6 +3,9 @@ import random
 
    
 def code_gen():
+    """
+    This Function Generate code
+    """
     code = []
     while len(code) != 4:
         digit = random.randint(0,9)
